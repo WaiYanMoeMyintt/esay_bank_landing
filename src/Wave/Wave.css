@@ -1,0 +1,24 @@
+.wave{
+    transform: translateY(-9rem);
+}
+@media only screen and (max-width:768px) {
+    .wave{
+         transform: translateY(-5rem);
+    }
+}
+
+@media only screen and (max-width:640px) {
+    .wave{
+        display: none;
+    }
+}
+@media only screen and (max-width:480px) {
+    .wave{
+        display: none;
+    }
+}
+@media only screen and (max-width:320px) {
+    .wave{
+        display: none;
+    }
+}
