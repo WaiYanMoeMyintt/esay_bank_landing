@@ -75,7 +75,7 @@
         margin:2rem 2rem;
     }
     .header-container .header-right img{
-        max-width: 22rem;
+        max-width: 20rem;
         height: auto;
         position: relative;
         bottom: 1%;
@@ -96,7 +96,7 @@
         transform: translateY(3rem);
    }
     .header-container .header-right img{
-        max-width: 22rem;
+        max-width: 18rem;
         height: auto;
         position: relative;
         bottom: 1%;
@@ -131,7 +131,7 @@
         width: 100%;
    }
     .header-container .header-right img{
-        max-width: 16rem;
+        max-width: 14rem;
         height: auto;
         position: relative;
         bottom: 1%;
