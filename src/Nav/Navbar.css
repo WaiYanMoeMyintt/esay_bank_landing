@@ -175,6 +175,26 @@
     }
 }
 
+@media only screen and (max-width:360px) {
+    .nav-container .nav-menu{
+        display: block;
+        transform: translateX(0rem);
+        z-index: 999;
+    }
+    .nav-links .nav-menu-bar {
+        display: none;
+        opacity: 0;
+        position: fixed;
+        height: 100%;
+        padding: 2rem 4.5rem;
+        border-radius: .3rem;
+        flex-direction: column;
+        transition: all .5s ease;
+        transform: translate(-3rem,-1.8rem);
+        z-index: 999;
+        background: -webkit-gradient(linear, right top, left top, from(#30d35c), to(#2ab6d9));
+    }
+}
 
 @media only screen and (max-width:320px) {
     .nav-container{
