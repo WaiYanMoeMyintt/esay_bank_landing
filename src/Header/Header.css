@@ -104,7 +104,14 @@
     }
 }
 
-
+@media only screen and (max-width:360px) {
+    .header-container .header-right img{
+        max-width: 14.5rem;
+        height: auto;
+        position: relative;
+        bottom: 1%;
+    }
+}
 
 
 @media only screen and (max-width:320px) {
