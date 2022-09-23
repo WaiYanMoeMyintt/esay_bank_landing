@@ -1,0 +1,119 @@
+.service-container{
+    padding: var(--body-padding);
+    margin: var(--margin-distance);
+    transform: translateY(-8rem);
+}
+.service-container h1{
+    font-size: 3rem;
+    padding:1rem 0;
+    font-weight: normal;
+}
+.service-container p{
+    font-size: 1rem;
+    padding:.5rem 0;
+    font-weight: normal;
+    line-height: 1.5rem;
+    color: var(--gray-blue);
+    letter-spacing: .7px;
+}
+
+.service-container .service-2 {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    gap:1rem;
+}
+.service-2 .cool-service{
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    box-shadow:0px 1px 8px -1px rgba(0,0,0,0.75);
+    cursor: pointer;
+    transition: all 500ms ease;
+}
+.cool-service:hover{
+    transform: translateY(1px);
+}
+.service-2 .cool-service img{
+    margin:1rem 0;
+}
+.service-2 .cool-service h3{
+    margin:1.5rem 0;
+    font-weight: normal;
+}
+.service-2 .cool-service p{
+    width: 80%;
+    margin:1rem 0;
+}
+
+@media only screen and (max-width:1200px) {
+    .service-container{
+        padding: 0;
+        transform: translateY(-15rem);
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .service-2 .cool-service{
+        padding: 2rem 1rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .service-container{
+        padding: 0;
+        transform: translateY(-8rem);
+    }
+    .service-2 .cool-service{
+        padding: 0rem 1rem;
+    }
+}
+
+
+
+@media only screen and (max-width:640px) {
+    .service-container{
+        padding: 0;
+        margin:2rem 2rem;
+        transform: translateY(8rem);
+    }
+    .service-container .service-2 {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .service-container{
+        padding: 0;
+        margin:2rem 2rem;
+        transform: translateY(8rem);
+    }
+    .service-container .service-2 {
+        gap:3rem;
+    }    
+    .service-container .service-2 {
+        flex-wrap: wrap;
+    }
+    .service-2 .cool-service p{
+        width: 100%;
+        margin:1rem 0;
+    }
+}
+
+@media only screen and (max-width:320px) {
+    .service-container{
+        padding: 0;
+        margin:2rem 2rem;
+        transform: translateY(8rem);
+    }
+    .service-container .service-2 {
+        gap:3rem;
+    }    
+    .service-container .service-2 {
+        flex-wrap: wrap;
+    }
+    .service-2 .cool-service p{
+        width: 100%;
+        margin:1rem 0;
+    }
+}
