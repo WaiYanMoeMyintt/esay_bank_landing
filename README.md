@@ -1,6 +1,6 @@
 # Frontend Mentor - Easybank landing page
 
-![Design preview for the Easybank landing page coding challenge](https://esay-bank-landing-ru48.vercel.app/)
+![Design preview for the Easybank landing page Live](./src/design/easy.png);
 
 ## Welcome! 👋
 
